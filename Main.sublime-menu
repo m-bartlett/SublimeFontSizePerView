@@ -1,0 +1,56 @@
+[
+  {
+    "caption": "Preferences", 
+    "children": [
+      {
+        "caption": "Package Settings", 
+        "children": [
+          {
+            "caption": "FontSizePerView", 
+            "children": [
+              {
+                "caption": "Key Bindings",
+                "command": "edit_settings",
+                "args": {
+                  "base_file": "${packages}/FontSizePerView/Default.sublime-keymap",
+                  "user_file": "${packages}/User/Default (${platform}).sublime-keymap",
+                  "default": "[\n\t$0\n]\n",
+                }
+              },
+              {
+                "caption": "-"
+              },
+              {
+                "caption": "Increase View Font Size", 
+                "command": "adjust_font_size_per_view",
+                "args": {"delta": 1}
+              },
+              {
+                "caption": "-"
+              }, 
+              {
+                "caption": "Decrease View Font Size", 
+                "command": "adjust_font_size_per_view",
+                "args": {"delta": -1}
+              },
+              {
+                "caption": "-"
+              },
+              {
+                "caption": "Reset View Font Size", 
+                "command": "adjust_font_size_per_view"
+              },
+              {
+                "caption": "-"
+              }
+            ]
+          }
+        ], 
+        "id": "package-settings", 
+        "mnemonic": "P"
+      }
+    ], 
+    "id": "preferences", 
+    "mnemonic": "n"
+  }
+]

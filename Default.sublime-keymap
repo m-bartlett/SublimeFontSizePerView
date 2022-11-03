@@ -1,0 +1,22 @@
+[
+  //     /* Increase View Font Size */
+  // { 
+  //   "keys": ["ctrl+alt+="],
+  //   "command": "adjust_font_size_per_view",
+  //   "args": {"delta": 1}
+  // },
+
+  //     /* Decrease View Font Size */
+  // { 
+  //   "keys": ["ctrl+alt+-"],
+  //   "command": "adjust_font_size_per_view",
+  //   "args": {"delta": -1}
+  // },
+  
+  //     /* Reset View Font Size */
+  // { 
+  //   "keys": ["ctrl+alt+0"],
+  //   "command": "adjust_font_size_per_view",
+  //   "args": {}
+  // },
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "caption": "FontSizePerView: Increase View Font Size",
+        "command": "adjust_font_size_per_view",
+        "args": {"delta": 1}
+    },
+    {
+        "caption": "FontSizePerView: Decrease View Font Size",
+        "command": "adjust_font_size_per_view",
+        "args": {"delta": -1}
+    },
+    {
+        "caption": "FontSizePerView: Reset View Font Size",
+        "command": "adjust_font_size_per_view",
+        "args": {}
+    },
+]
