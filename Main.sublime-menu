@@ -1,12 +1,49 @@
 [
   {
-    "caption": "Preferences", 
+    "id": "view",
     "children": [
+      { "id": "line_endings" },
       {
-        "caption": "Package Settings", 
+        "caption": "View Font Size",
+        "mnemonic": "z",
         "children": [
           {
-            "caption": "FontSizePerView", 
+            "caption": "Increase View Font Size",
+            "command": "adjust_font_size_per_view",
+            "args": { "delta": 1 }
+          },
+          {
+            "caption": "-"
+          },
+          {
+            "caption": "Decrease View Font Size",
+            "command": "adjust_font_size_per_view",
+            "args": { "delta": -1 }
+          },
+          {
+            "caption": "-"
+          },
+          {
+            "caption": "Reset View Font Size",
+            "command": "adjust_font_size_per_view"
+          },
+          {
+            "caption": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caption": "Preferences",
+    "id": "preferences",
+    "mnemonic": "n",
+    "children": [
+      {
+        "caption": "Package Settings",
+        "children": [
+          {
+            "caption": "Font Size Per View",
             "children": [
               {
                 "caption": "Key Bindings",
@@ -20,37 +57,12 @@
               {
                 "caption": "-"
               },
-              {
-                "caption": "Increase View Font Size", 
-                "command": "adjust_font_size_per_view",
-                "args": {"delta": 1}
-              },
-              {
-                "caption": "-"
-              }, 
-              {
-                "caption": "Decrease View Font Size", 
-                "command": "adjust_font_size_per_view",
-                "args": {"delta": -1}
-              },
-              {
-                "caption": "-"
-              },
-              {
-                "caption": "Reset View Font Size", 
-                "command": "adjust_font_size_per_view"
-              },
-              {
-                "caption": "-"
-              }
             ]
           }
-        ], 
-        "id": "package-settings", 
+        ],
+        "id": "package-settings",
         "mnemonic": "P"
       }
-    ], 
-    "id": "preferences", 
-    "mnemonic": "n"
+    ],
   }
 ]
