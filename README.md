@@ -14,7 +14,13 @@ A Sublime Text plugin to support adjusting the font size in each view individual
 
 ### Package Control
 
-*Not yet hosted*
+1. Open the command palette in Sublime Text (ctrl+shift+p by default).
+1. Search for `Package Control: Install Package` and hit enter to execute the command.
+1. Search for`Font Size Per View` in the list of displayed packages, and hit enter once it is selected to install the plugin.
+
+The plugin will now be installed. 
+
+[View package control page](https://packagecontrol.io/packages/Font%20Size%20Per%20View)
 
 ### Manual
 
