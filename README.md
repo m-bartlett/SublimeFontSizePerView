@@ -16,7 +16,7 @@ A Sublime Text plugin to support adjusting the font size in each view individual
 
 1. Open the command palette in Sublime Text (ctrl+shift+p by default).
 1. Search for `Package Control: Install Package` and hit enter to execute the command.
-1. Search for`Font Size Per View` in the list of displayed packages, and hit enter once it is selected to install the plugin.
+1. Search for`Font Size Per View` in the list of displayed packages, then hit enter once it is focused to install the plugin.
 
 The plugin will now be installed. 
 
@@ -24,11 +24,22 @@ The plugin will now be installed.
 
 ### Manual
 
-Clone this repository into `~/.config/sublime-text/Packages/` named as `FontSizePerView`.
+#### Linux/Windows
+
+Clone this repository into `~/.config/sublime-text/Packages/` named as `Font Size Per View`.
 
 For example:
 ```console
-$ git clone https://github.com/m-bartlett/SublimeFontSizePerView ~/.config/sublime-text/Packages/FontSizePerView
+$ git clone https://github.com/m-bartlett/SublimeFontSizePerView "~/.config/sublime-text/Packages/Font Size Per View"
+```
+
+#### MacOS
+
+Clone this repository into `~/Library/Application Support/Sublime Text/Packages/` named as `Font Size Per View`.
+
+For example:
+```console
+$ git clone https://github.com/m-bartlett/SublimeFontSizePerView "~/Library/Application Support/Sublime Text/Packages/Font Size Per View"
 ```
 
 ## Usage
