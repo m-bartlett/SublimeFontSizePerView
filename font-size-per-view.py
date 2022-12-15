@@ -13,7 +13,7 @@ class AdjustFontSizePerViewCommand(sublime_plugin.TextCommand):
 
 
     def set_font_size(self, font_size):
-        self.view.run_command('set_setting', {"setting": "font_size", "value": font_size});
+        self.view.run_command('set_setting', {"setting": "font_size", "value": font_size})
 
 
     def add_font_size(self, delta):

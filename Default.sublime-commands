@@ -1,17 +1,26 @@
 [
     {
-        "caption": "FontSizePerView: Increase View Font Size",
+        "caption": "Font Size Per View: Increase View Font Size",
         "command": "adjust_font_size_per_view",
         "args": {"delta": 1}
     },
     {
-        "caption": "FontSizePerView: Decrease View Font Size",
+        "caption": "Font Size Per View: Decrease View Font Size",
         "command": "adjust_font_size_per_view",
         "args": {"delta": -1}
     },
     {
-        "caption": "FontSizePerView: Reset View Font Size",
+        "caption": "Font Size Per View: Reset View Font Size",
         "command": "adjust_font_size_per_view",
         "args": {}
+    },
+    {
+        "caption": "Font Size Per View: Open Key Binding Settings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/Font Size Per View/Default.sublime-keymap",
+            "user_file": "${packages}/User/Default (${platform}).sublime-keymap",
+            "default": "[\n\t$0\n]\n",
+        }
     },
 ]
